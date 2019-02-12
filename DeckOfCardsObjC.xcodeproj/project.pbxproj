@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		34E3A42222136C3B001CBEBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3A42122136C3B001CBEBD /* AppDelegate.m */; };
-		34E3A42522136C3B001CBEBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3A42422136C3B001CBEBD /* ViewController.m */; };
 		34E3A42822136C3B001CBEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E3A42622136C3B001CBEBD /* Main.storyboard */; };
 		34E3A42A22136C3C001CBEBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E3A42922136C3C001CBEBD /* Assets.xcassets */; };
 		34E3A42D22136C3C001CBEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E3A42B22136C3C001CBEBD /* LaunchScreen.storyboard */; };
 		34E3A43022136C3C001CBEBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3A42F22136C3C001CBEBD /* main.m */; };
+		34E3A43822136C68001CBEBD /* DVMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3A43722136C68001CBEBD /* DVMCard.m */; };
+		34E3A43C22136DF7001CBEBD /* DVMCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3A43B22136DF7001CBEBD /* DVMCardController.m */; };
+		34E3A44022137795001CBEBD /* DVMCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3A43F22137795001CBEBD /* DVMCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34E3A41D22136C3B001CBEBD /* DeckOfCardsObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckOfCardsObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E3A42022136C3B001CBEBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34E3A42122136C3B001CBEBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		34E3A42322136C3B001CBEBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34E3A42422136C3B001CBEBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34E3A42722136C3B001CBEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34E3A42922136C3C001CBEBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E3A42C22136C3C001CBEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34E3A42E22136C3C001CBEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34E3A42F22136C3C001CBEBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34E3A43622136C68001CBEBD /* DVMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCard.h; sourceTree = "<group>"; };
+		34E3A43722136C68001CBEBD /* DVMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCard.m; sourceTree = "<group>"; };
+		34E3A43A22136DF7001CBEBD /* DVMCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCardController.h; sourceTree = "<group>"; };
+		34E3A43B22136DF7001CBEBD /* DVMCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCardController.m; sourceTree = "<group>"; };
+		34E3A43E22137795001CBEBD /* DVMCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCardViewController.h; sourceTree = "<group>"; };
+		34E3A43F22137795001CBEBD /* DVMCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +66,43 @@
 			children = (
 				34E3A42022136C3B001CBEBD /* AppDelegate.h */,
 				34E3A42122136C3B001CBEBD /* AppDelegate.m */,
-				34E3A42322136C3B001CBEBD /* ViewController.h */,
-				34E3A42422136C3B001CBEBD /* ViewController.m */,
 				34E3A42622136C3B001CBEBD /* Main.storyboard */,
 				34E3A42922136C3C001CBEBD /* Assets.xcassets */,
 				34E3A42B22136C3C001CBEBD /* LaunchScreen.storyboard */,
 				34E3A42E22136C3C001CBEBD /* Info.plist */,
 				34E3A42F22136C3C001CBEBD /* main.m */,
+				34E3A43922136C6C001CBEBD /* Model */,
+				34E3A43D22136DFC001CBEBD /* Controller */,
+				34E3A44122137867001CBEBD /* Views */,
 			);
 			path = DeckOfCardsObjC;
+			sourceTree = "<group>";
+		};
+		34E3A43922136C6C001CBEBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34E3A43622136C68001CBEBD /* DVMCard.h */,
+				34E3A43722136C68001CBEBD /* DVMCard.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34E3A43D22136DFC001CBEBD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34E3A43A22136DF7001CBEBD /* DVMCardController.h */,
+				34E3A43B22136DF7001CBEBD /* DVMCardController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34E3A44122137867001CBEBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34E3A43E22137795001CBEBD /* DVMCardViewController.h */,
+				34E3A43F22137795001CBEBD /* DVMCardViewController.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E3A42522136C3B001CBEBD /* ViewController.m in Sources */,
+				34E3A44022137795001CBEBD /* DVMCardViewController.m in Sources */,
+				34E3A43822136C68001CBEBD /* DVMCard.m in Sources */,
 				34E3A43022136C3C001CBEBD /* main.m in Sources */,
 				34E3A42222136C3B001CBEBD /* AppDelegate.m in Sources */,
+				34E3A43C22136DF7001CBEBD /* DVMCardController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
